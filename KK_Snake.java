@@ -1,15 +1,15 @@
 /**
  * Write a description of class Snake here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Karamjeet Kaur)
+ * @version (04-24-2021)
  */
-public class Snake
+public class KK_Snake
 {
     /**
      * Constructor for objects of class Snake
      */
-    public Snake() {
+    public KK_Snake() {
         // initialise instance variables        
     }
 

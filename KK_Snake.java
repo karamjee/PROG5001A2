@@ -4,12 +4,13 @@
  * @author (Karamjeet Kaur)
  * @version (04-24-2021)
  */
-public class KK_Snake
+abstract class KK_Snake
 {
     /**
-     * Constructor for objects of class Snake
+     * method snake eat prey
+     * snake can eat prey
      */
-    public KK_Snake() {
+    public abstract void eatprey(); {
         // initialise instance variables        
     }
 

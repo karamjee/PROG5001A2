@@ -4,11 +4,12 @@
  * @author Karamjeet Kaur
  * @version 
  */
-public class KK_Prey {
+abstract class KK_Prey {
     /**
-     * Constructor for objects of class Prey
+     * Method location
+     * can change the location of prey
      */
-    public KK_Prey()
-    {
+    public abstract void location(); 
+    {   
     }    
 }

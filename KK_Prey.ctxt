@@ -2,6 +2,6 @@
 comment0.target=KK_Prey
 comment0.text=\r\n\ Class\ Prey\ represents\ any\ prey\ object.\r\n\r\n\ @author\ Karamjeet\ Kaur\r\n\ @version\ \r\n
 comment1.params=
-comment1.target=KK_Prey()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Prey\r\n
+comment1.target=void\ location()
+comment1.text=\r\n\ Method\ location\r\n\ can\ change\ the\ location\ of\ prey\r\n
 numComments=2

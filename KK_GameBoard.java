@@ -3,7 +3,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-public class KK_GameBoard extends JPanel {    
+abstract class KK_GameBoard extends JPanel {    
     int xcells = 30;   
     int ycells = 30;
     int szcell = 10;        
@@ -19,4 +19,18 @@ public class KK_GameBoard extends JPanel {
         super.paintComponent(g);
     }
     
+    /** Method exit
+     * user can exit the game
+     * 
+     */
+    abstract void exit();
+    
+    /** Method resizeable
+     * user can increase and decrease the size of window
+     * 
+     */
+    abstract void resizeable();
+    
 }
+
+

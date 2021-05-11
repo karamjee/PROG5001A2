@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=KK_Prey
-comment0.text=\r\n\ Class\ Prey\ represents\ any\ prey\ object.\r\n\r\n\ @author\ Karamjeet\ Kaur\r\n\ @version\ \r\n
-comment1.params=
-comment1.target=void\ location()
-comment1.text=\r\n\ Method\ location\r\n\ can\ change\ the\ location\ of\ prey\r\n
-numComments=2
+comment1.params=image_path\ width\ height
+comment1.target=KK_Prey(java.lang.String,\ int,\ int)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=
+comment4.target=void\ Location()
+numComments=5

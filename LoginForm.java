@@ -19,7 +19,7 @@ import java.io.FileNotFoundException;
  * @author Karamjeet Kaur
  */
 
-public class KK_LoginForm extends JFrame implements ActionListener {
+public class LoginForm extends JFrame implements ActionListener {
     private JLabel labelUsername;
     private JLabel labelPassword;   
     private JTextField textUsername;
@@ -27,7 +27,7 @@ public class KK_LoginForm extends JFrame implements ActionListener {
     private JButton buttonLogin;
     private PlayerList playerList;
  
-    public KK_LoginForm() {
+    public LoginForm() {
         super("Login Form");
         labelUsername = new JLabel("Enter username: ");
         labelPassword = new JLabel("Enter password: ");   
@@ -89,6 +89,10 @@ public class KK_LoginForm extends JFrame implements ActionListener {
         String password = fieldPassword.getText();
         if (playerList.matchPlayer(username, password)) {
             JOptionPane.showMessageDialog(this, username + ": login successfully");
+            
+            KK_SnakeGame game = new KK_SnakeGame("Mysnakegame");
+            game.setVisible(true);
+            
         } else {
             JOptionPane.showMessageDialog(this, "wrong username or password");
         }
@@ -116,7 +120,7 @@ public class KK_LoginForm extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new KK_LoginForm().setVisible(true);
+                new LoginForm().setVisible(true);
             }
         });
     }
